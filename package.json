@@ -1,0 +1,27 @@
+{
+  "name": "mernstack-practice",
+  "version": "0.0.1",
+  "description": "MERN stack practice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel-watch server.js"
+  },
+  "keywords": ["mern", "mern-stack", "mongodb", "apollo-server-express"],
+  "author": "Ashraful Ferdous",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "apollo-server-express": "^2.7.0",
+    "express": "^4.17.1",
+    "graphql": "^14.4.2",
+    "mongoose": "^5.6.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-watch": "^7.0.0"
+  }
+}
